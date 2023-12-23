@@ -83,7 +83,17 @@ namespace DoAnCuoiKy
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabRSA = new System.Windows.Forms.TabPage();
+            this.btnDecryptRSA = new System.Windows.Forms.Button();
+            this.btnEncryptRSA = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnFileexportRSA = new System.Windows.Forms.Button();
+            this.btnFileInputRSA = new System.Windows.Forms.Button();
+            this.richtbOutputRSA = new System.Windows.Forms.RichTextBox();
+            this.richtbInputRSA = new System.Windows.Forms.RichTextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnGenerateE = new System.Windows.Forms.Button();
             this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -105,23 +115,13 @@ namespace DoAnCuoiKy
             this.txtPrimeQ = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnEncryptRSA = new System.Windows.Forms.Button();
-            this.btnDecryptRSA = new System.Windows.Forms.Button();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.richtbInputRSA = new System.Windows.Forms.RichTextBox();
-            this.richtbOutputRSA = new System.Windows.Forms.RichTextBox();
-            this.btnFileInputRSA = new System.Windows.Forms.Button();
-            this.btnFileexportRSA = new System.Windows.Forms.Button();
-            this.btnGenerateE = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPlayfail.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabRSA.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -695,6 +695,95 @@ namespace DoAnCuoiKy
             this.tabRSA.Text = "RSA";
             this.tabRSA.UseVisualStyleBackColor = true;
             // 
+            // btnDecryptRSA
+            // 
+            this.btnDecryptRSA.Location = new System.Drawing.Point(478, 654);
+            this.btnDecryptRSA.Name = "btnDecryptRSA";
+            this.btnDecryptRSA.Size = new System.Drawing.Size(75, 23);
+            this.btnDecryptRSA.TabIndex = 4;
+            this.btnDecryptRSA.Text = "Decrypt";
+            this.btnDecryptRSA.UseVisualStyleBackColor = true;
+            this.btnDecryptRSA.Click += new System.EventHandler(this.btnDecryptRSA_Click);
+            // 
+            // btnEncryptRSA
+            // 
+            this.btnEncryptRSA.Location = new System.Drawing.Point(397, 654);
+            this.btnEncryptRSA.Name = "btnEncryptRSA";
+            this.btnEncryptRSA.Size = new System.Drawing.Size(75, 23);
+            this.btnEncryptRSA.TabIndex = 3;
+            this.btnEncryptRSA.Text = "Encrypt";
+            this.btnEncryptRSA.UseVisualStyleBackColor = true;
+            this.btnEncryptRSA.Click += new System.EventHandler(this.btnEncryptRSA_Click);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.btnFileexportRSA);
+            this.groupBox4.Controls.Add(this.btnFileInputRSA);
+            this.groupBox4.Controls.Add(this.richtbOutputRSA);
+            this.groupBox4.Controls.Add(this.richtbInputRSA);
+            this.groupBox4.Controls.Add(this.label51);
+            this.groupBox4.Controls.Add(this.label50);
+            this.groupBox4.Location = new System.Drawing.Point(8, 424);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(560, 197);
+            this.groupBox4.TabIndex = 2;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "RSA";
+            // 
+            // btnFileexportRSA
+            // 
+            this.btnFileexportRSA.Location = new System.Drawing.Point(470, 141);
+            this.btnFileexportRSA.Name = "btnFileexportRSA";
+            this.btnFileexportRSA.Size = new System.Drawing.Size(75, 23);
+            this.btnFileexportRSA.TabIndex = 2;
+            this.btnFileexportRSA.Text = "Export file";
+            this.btnFileexportRSA.UseVisualStyleBackColor = true;
+            this.btnFileexportRSA.Click += new System.EventHandler(this.btnFileexportRSA_Click);
+            // 
+            // btnFileInputRSA
+            // 
+            this.btnFileInputRSA.Location = new System.Drawing.Point(469, 58);
+            this.btnFileInputRSA.Name = "btnFileInputRSA";
+            this.btnFileInputRSA.Size = new System.Drawing.Size(75, 23);
+            this.btnFileInputRSA.TabIndex = 2;
+            this.btnFileInputRSA.Text = "From file";
+            this.btnFileInputRSA.UseVisualStyleBackColor = true;
+            this.btnFileInputRSA.Click += new System.EventHandler(this.btnFileInputRSA_Click);
+            // 
+            // richtbOutputRSA
+            // 
+            this.richtbOutputRSA.Location = new System.Drawing.Point(5, 125);
+            this.richtbOutputRSA.Name = "richtbOutputRSA";
+            this.richtbOutputRSA.Size = new System.Drawing.Size(438, 51);
+            this.richtbOutputRSA.TabIndex = 1;
+            this.richtbOutputRSA.Text = "";
+            // 
+            // richtbInputRSA
+            // 
+            this.richtbInputRSA.Location = new System.Drawing.Point(6, 44);
+            this.richtbInputRSA.Name = "richtbInputRSA";
+            this.richtbInputRSA.Size = new System.Drawing.Size(437, 51);
+            this.richtbInputRSA.TabIndex = 1;
+            this.richtbInputRSA.Text = "";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(3, 109);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(39, 13);
+            this.label51.TabIndex = 0;
+            this.label51.Text = "Output";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(6, 28);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(31, 13);
+            this.label50.TabIndex = 0;
+            this.label50.Text = "Input";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnGenerateE);
@@ -712,6 +801,16 @@ namespace DoAnCuoiKy
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "RSA parameters";
+            // 
+            // btnGenerateE
+            // 
+            this.btnGenerateE.Location = new System.Drawing.Point(367, 97);
+            this.btnGenerateE.Name = "btnGenerateE";
+            this.btnGenerateE.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerateE.TabIndex = 2;
+            this.btnGenerateE.Text = "Generate e";
+            this.btnGenerateE.UseVisualStyleBackColor = true;
+            this.btnGenerateE.Click += new System.EventHandler(this.btnGenerateE_Click);
             // 
             // label49
             // 
@@ -758,7 +857,7 @@ namespace DoAnCuoiKy
             this.txtD.ReadOnly = true;
             this.txtD.Size = new System.Drawing.Size(241, 20);
             this.txtD.TabIndex = 1;
-            this.txtD.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtD.TextChanged += new System.EventHandler(this.txtD_TextChanged);
             // 
             // txtE
             // 
@@ -928,105 +1027,6 @@ namespace DoAnCuoiKy
             this.label42.TabIndex = 0;
             this.label42.Text = "Prime number q";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.btnFileexportRSA);
-            this.groupBox4.Controls.Add(this.btnFileInputRSA);
-            this.groupBox4.Controls.Add(this.richtbOutputRSA);
-            this.groupBox4.Controls.Add(this.richtbInputRSA);
-            this.groupBox4.Controls.Add(this.label51);
-            this.groupBox4.Controls.Add(this.label50);
-            this.groupBox4.Location = new System.Drawing.Point(8, 424);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(560, 197);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "RSA";
-            // 
-            // btnEncryptRSA
-            // 
-            this.btnEncryptRSA.Location = new System.Drawing.Point(397, 654);
-            this.btnEncryptRSA.Name = "btnEncryptRSA";
-            this.btnEncryptRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnEncryptRSA.TabIndex = 3;
-            this.btnEncryptRSA.Text = "Encrypt";
-            this.btnEncryptRSA.UseVisualStyleBackColor = true;
-            this.btnEncryptRSA.Click += new System.EventHandler(this.btnEncryptRSA_Click);
-            // 
-            // btnDecryptRSA
-            // 
-            this.btnDecryptRSA.Location = new System.Drawing.Point(478, 654);
-            this.btnDecryptRSA.Name = "btnDecryptRSA";
-            this.btnDecryptRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnDecryptRSA.TabIndex = 4;
-            this.btnDecryptRSA.Text = "Decrypt";
-            this.btnDecryptRSA.UseVisualStyleBackColor = true;
-            this.btnDecryptRSA.Click += new System.EventHandler(this.btnDecryptRSA_Click);
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(6, 28);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(31, 13);
-            this.label50.TabIndex = 0;
-            this.label50.Text = "Input";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(3, 109);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(39, 13);
-            this.label51.TabIndex = 0;
-            this.label51.Text = "Output";
-            // 
-            // richtbInputRSA
-            // 
-            this.richtbInputRSA.Location = new System.Drawing.Point(6, 44);
-            this.richtbInputRSA.Name = "richtbInputRSA";
-            this.richtbInputRSA.Size = new System.Drawing.Size(437, 51);
-            this.richtbInputRSA.TabIndex = 1;
-            this.richtbInputRSA.Text = "";
-            // 
-            // richtbOutputRSA
-            // 
-            this.richtbOutputRSA.Location = new System.Drawing.Point(5, 125);
-            this.richtbOutputRSA.Name = "richtbOutputRSA";
-            this.richtbOutputRSA.Size = new System.Drawing.Size(438, 51);
-            this.richtbOutputRSA.TabIndex = 1;
-            this.richtbOutputRSA.Text = "";
-            // 
-            // btnFileInputRSA
-            // 
-            this.btnFileInputRSA.Location = new System.Drawing.Point(469, 58);
-            this.btnFileInputRSA.Name = "btnFileInputRSA";
-            this.btnFileInputRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnFileInputRSA.TabIndex = 2;
-            this.btnFileInputRSA.Text = "From file";
-            this.btnFileInputRSA.UseVisualStyleBackColor = true;
-            this.btnFileInputRSA.Click += new System.EventHandler(this.btnFileInputRSA_Click);
-            // 
-            // btnFileexportRSA
-            // 
-            this.btnFileexportRSA.Location = new System.Drawing.Point(470, 141);
-            this.btnFileexportRSA.Name = "btnFileexportRSA";
-            this.btnFileexportRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnFileexportRSA.TabIndex = 2;
-            this.btnFileexportRSA.Text = "Export file";
-            this.btnFileexportRSA.UseVisualStyleBackColor = true;
-            this.btnFileexportRSA.Click += new System.EventHandler(this.btnFileexportRSA_Click);
-            // 
-            // btnGenerateE
-            // 
-            this.btnGenerateE.Location = new System.Drawing.Point(367, 97);
-            this.btnGenerateE.Name = "btnGenerateE";
-            this.btnGenerateE.Size = new System.Drawing.Size(75, 23);
-            this.btnGenerateE.TabIndex = 2;
-            this.btnGenerateE.Text = "Generate e";
-            this.btnGenerateE.UseVisualStyleBackColor = true;
-            this.btnGenerateE.Click += new System.EventHandler(this.btnGenerateE_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1041,12 +1041,12 @@ namespace DoAnCuoiKy
             this.tabPlayfail.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.tabRSA.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }

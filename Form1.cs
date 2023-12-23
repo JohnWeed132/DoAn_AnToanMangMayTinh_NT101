@@ -85,6 +85,8 @@ namespace DoAnCuoiKy
         {
             radio5x5matrix.Checked = true;
             txtKeyPlayfair.Text = "CIPHER";
+            btnEncryptRSA.Enabled = false;
+            btnDecryptRSA.Enabled = false;
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -162,7 +164,7 @@ namespace DoAnCuoiKy
         }
 
         private void btnDecryptPlayfair_Click(object sender, EventArgs e)
-        {
+        { 
             int size = 0;
             string keyPlayfair;
             string inputText;
@@ -532,6 +534,7 @@ namespace DoAnCuoiKy
                 txtN.Text = "";
                 txtPhi.Text = "";
                 txtD.Text = "";
+                txtE.Text = "";
                 return;
             }
             BigInteger Q = BigInteger.Parse(txtPrimeQ.Text);
@@ -557,6 +560,7 @@ namespace DoAnCuoiKy
                 txtN.Text = "";
                 txtPhi.Text = "";
                 txtD.Text = "";
+                txtE.Text = "";
             }
         }
         static BigInteger GenerateLargePrime(BigInteger m, BigInteger n)
@@ -832,6 +836,11 @@ namespace DoAnCuoiKy
 
         private void btnDecryptRSA_Click(object sender, EventArgs e)
         {
+            if (txtD.Text == "")
+            {
+                MessageBox.Show("Lỗi, hãy xem lại các thông số");
+                return;
+            }
             string encryptmessage = richtbInputRSA.Text;
             string pattern = @"^[0-9 ]*$";
             bool isMatch = Regex.IsMatch(encryptmessage, pattern);
@@ -869,6 +878,11 @@ namespace DoAnCuoiKy
         }
             private void btnEncryptRSA_Click(object sender, EventArgs e)
         {
+            if (txtD.Text == "")
+            {
+                MessageBox.Show("Lỗi, hãy xem lại các thông số");
+                return;
+            }
             string message = richtbInputRSA.Text;
             BigInteger E = BigInteger.Parse(txtE.Text);
             BigInteger N = BigInteger.Parse(txtN.Text);
@@ -896,6 +910,22 @@ namespace DoAnCuoiKy
                 }
 
                 MessageBox.Show("File saved successfully!");
+            }
+        }
+
+        private void txtD_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtD.Text))
+            {
+                // Nếu rỗng, vô hiệu hóa nút
+                btnEncryptRSA.Enabled = false;
+                btnDecryptRSA.Enabled = false; 
+            }
+            else
+            {
+                // Nếu không rỗng, kích hoạt nút
+                btnEncryptRSA.Enabled = true;
+                btnDecryptRSA.Enabled = false;
             }
         }
     }
