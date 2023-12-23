@@ -1,0 +1,13 @@
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe.config
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.pdb
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Form1.resources
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Properties.Resources.resources
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.GenerateResource.cache
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.exe
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.Fody.CopyLocal.cache
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CopyComplete
