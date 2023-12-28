@@ -1,7 +1,6 @@
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe.config
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.pdb
-D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Form1.resources
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Properties.Resources.resources
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.GenerateResource.cache
