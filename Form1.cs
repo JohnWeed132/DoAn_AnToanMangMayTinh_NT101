@@ -891,7 +891,7 @@ namespace DoAnCuoiKy
 
         private void btnFileexportRSA_Click(object sender, EventArgs e)
         {
-            if (richtbOutputPlayfair.Text == "")
+            if (richtbOutputRSA.Text == "")
             {
                 MessageBox.Show("Output is empty.");
                 return;
@@ -926,6 +926,33 @@ namespace DoAnCuoiKy
                 // Nếu không rỗng, kích hoạt nút
                 btnEncryptRSA.Enabled = true;
                 btnDecryptRSA.Enabled = false;
+            }
+        }
+
+        private void txtE_TextChanged(object sender, EventArgs e)
+        {
+            if(txtE.Text != "")
+            {
+                BigInteger E = BigInteger.Parse(txtE.Text);
+                if(txtPhi.Text != "")
+                {
+                    BigInteger phi = BigInteger.Parse(txtPhi.Text);
+                    if(BigInteger.GreatestCommonDivisor(E, phi) == 1)
+                    {
+                        BigInteger D = CalculateD(E, phi);
+                        txtD.Text = D.ToString();
+                    }
+                    else
+                    {
+                        txtD.Text = "";
+                    }
+                 
+                }
+              
+            }
+            else
+            {
+                txtD.Text = "";
             }
         }
     }

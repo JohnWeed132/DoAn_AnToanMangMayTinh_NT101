@@ -166,7 +166,7 @@ namespace DoAnCuoiKy
             this.btnDecryptPlayfair.Location = new System.Drawing.Point(396, 630);
             this.btnDecryptPlayfair.Name = "btnDecryptPlayfair";
             this.btnDecryptPlayfair.Size = new System.Drawing.Size(75, 23);
-            this.btnDecryptPlayfair.TabIndex = 7;
+            this.btnDecryptPlayfair.TabIndex = 6;
             this.btnDecryptPlayfair.Text = "Decrypt";
             this.btnDecryptPlayfair.UseVisualStyleBackColor = true;
             this.btnDecryptPlayfair.Click += new System.EventHandler(this.btnDecryptPlayfair_Click);
@@ -176,7 +176,7 @@ namespace DoAnCuoiKy
             this.btnEncryptPlayfair.Location = new System.Drawing.Point(314, 630);
             this.btnEncryptPlayfair.Name = "btnEncryptPlayfair";
             this.btnEncryptPlayfair.Size = new System.Drawing.Size(75, 23);
-            this.btnEncryptPlayfair.TabIndex = 7;
+            this.btnEncryptPlayfair.TabIndex = 5;
             this.btnEncryptPlayfair.Text = "Encrypt";
             this.btnEncryptPlayfair.UseVisualStyleBackColor = true;
             this.btnEncryptPlayfair.Click += new System.EventHandler(this.btnEncryptPlayfair_Click);
@@ -196,7 +196,7 @@ namespace DoAnCuoiKy
             this.btnInputPlayfair.Location = new System.Drawing.Point(477, 124);
             this.btnInputPlayfair.Name = "btnInputPlayfair";
             this.btnInputPlayfair.Size = new System.Drawing.Size(75, 23);
-            this.btnInputPlayfair.TabIndex = 7;
+            this.btnInputPlayfair.TabIndex = 1;
             this.btnInputPlayfair.Text = "Choose file";
             this.btnInputPlayfair.UseVisualStyleBackColor = true;
             this.btnInputPlayfair.Click += new System.EventHandler(this.btnInputPlayfair_Click);
@@ -207,7 +207,7 @@ namespace DoAnCuoiKy
             this.txtKeyPlayfair.Location = new System.Drawing.Point(100, 184);
             this.txtKeyPlayfair.Name = "txtKeyPlayfair";
             this.txtKeyPlayfair.Size = new System.Drawing.Size(452, 20);
-            this.txtKeyPlayfair.TabIndex = 6;
+            this.txtKeyPlayfair.TabIndex = 2;
             this.txtKeyPlayfair.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // richtbOutputPlayfair
@@ -216,7 +216,7 @@ namespace DoAnCuoiKy
             this.richtbOutputPlayfair.Name = "richtbOutputPlayfair";
             this.richtbOutputPlayfair.ReadOnly = true;
             this.richtbOutputPlayfair.Size = new System.Drawing.Size(452, 53);
-            this.richtbOutputPlayfair.TabIndex = 5;
+            this.richtbOutputPlayfair.TabIndex = 0;
             this.richtbOutputPlayfair.Text = "";
             this.richtbOutputPlayfair.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
@@ -225,7 +225,7 @@ namespace DoAnCuoiKy
             this.richtbInputPlayfair.Location = new System.Drawing.Point(100, 65);
             this.richtbInputPlayfair.Name = "richtbInputPlayfair";
             this.richtbInputPlayfair.Size = new System.Drawing.Size(452, 53);
-            this.richtbInputPlayfair.TabIndex = 5;
+            this.richtbInputPlayfair.TabIndex = 0;
             this.richtbInputPlayfair.Text = "";
             this.richtbInputPlayfair.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
@@ -244,7 +244,7 @@ namespace DoAnCuoiKy
             this.label41.Location = new System.Drawing.Point(44, 187);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(25, 13);
-            this.label41.TabIndex = 4;
+            this.label41.TabIndex = 0;
             this.label41.Text = "Key";
             this.label41.Click += new System.EventHandler(this.label39_Click);
             // 
@@ -254,7 +254,7 @@ namespace DoAnCuoiKy
             this.label39.Location = new System.Drawing.Point(44, 83);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(28, 13);
-            this.label39.TabIndex = 4;
+            this.label39.TabIndex = 0;
             this.label39.Text = "Text";
             this.label39.Click += new System.EventHandler(this.label39_Click);
             // 
@@ -276,7 +276,7 @@ namespace DoAnCuoiKy
             this.label38.Location = new System.Drawing.Point(20, 21);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(41, 16);
-            this.label38.TabIndex = 3;
+            this.label38.TabIndex = 0;
             this.label38.Text = "Input";
             this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
@@ -286,7 +286,7 @@ namespace DoAnCuoiKy
             this.radio6x6matrix.Location = new System.Drawing.Point(436, 263);
             this.radio6x6matrix.Name = "radio6x6matrix";
             this.radio6x6matrix.Size = new System.Drawing.Size(79, 17);
-            this.radio6x6matrix.TabIndex = 1;
+            this.radio6x6matrix.TabIndex = 4;
             this.radio6x6matrix.TabStop = true;
             this.radio6x6matrix.Text = "6 x 6 Matrix";
             this.radio6x6matrix.UseVisualStyleBackColor = true;
@@ -298,7 +298,7 @@ namespace DoAnCuoiKy
             this.radio5x5matrix.Location = new System.Drawing.Point(436, 240);
             this.radio5x5matrix.Name = "radio5x5matrix";
             this.radio5x5matrix.Size = new System.Drawing.Size(79, 17);
-            this.radio5x5matrix.TabIndex = 1;
+            this.radio5x5matrix.TabIndex = 3;
             this.radio5x5matrix.TabStop = true;
             this.radio5x5matrix.Text = "5 x 5 Matrix";
             this.radio5x5matrix.UseVisualStyleBackColor = true;
@@ -700,7 +700,7 @@ namespace DoAnCuoiKy
             this.btnDecryptRSA.Location = new System.Drawing.Point(478, 654);
             this.btnDecryptRSA.Name = "btnDecryptRSA";
             this.btnDecryptRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnDecryptRSA.TabIndex = 4;
+            this.btnDecryptRSA.TabIndex = 1;
             this.btnDecryptRSA.Text = "Decrypt";
             this.btnDecryptRSA.UseVisualStyleBackColor = true;
             this.btnDecryptRSA.Click += new System.EventHandler(this.btnDecryptRSA_Click);
@@ -710,7 +710,7 @@ namespace DoAnCuoiKy
             this.btnEncryptRSA.Location = new System.Drawing.Point(397, 654);
             this.btnEncryptRSA.Name = "btnEncryptRSA";
             this.btnEncryptRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnEncryptRSA.TabIndex = 3;
+            this.btnEncryptRSA.TabIndex = 0;
             this.btnEncryptRSA.Text = "Encrypt";
             this.btnEncryptRSA.UseVisualStyleBackColor = true;
             this.btnEncryptRSA.Click += new System.EventHandler(this.btnEncryptRSA_Click);
@@ -745,7 +745,7 @@ namespace DoAnCuoiKy
             this.btnFileInputRSA.Location = new System.Drawing.Point(469, 58);
             this.btnFileInputRSA.Name = "btnFileInputRSA";
             this.btnFileInputRSA.Size = new System.Drawing.Size(75, 23);
-            this.btnFileInputRSA.TabIndex = 2;
+            this.btnFileInputRSA.TabIndex = 1;
             this.btnFileInputRSA.Text = "From file";
             this.btnFileInputRSA.UseVisualStyleBackColor = true;
             this.btnFileInputRSA.Click += new System.EventHandler(this.btnFileInputRSA_Click);
@@ -763,7 +763,7 @@ namespace DoAnCuoiKy
             this.richtbInputRSA.Location = new System.Drawing.Point(6, 44);
             this.richtbInputRSA.Name = "richtbInputRSA";
             this.richtbInputRSA.Size = new System.Drawing.Size(437, 51);
-            this.richtbInputRSA.TabIndex = 1;
+            this.richtbInputRSA.TabIndex = 0;
             this.richtbInputRSA.Text = "";
             // 
             // label51
@@ -807,7 +807,7 @@ namespace DoAnCuoiKy
             this.btnGenerateE.Location = new System.Drawing.Point(367, 97);
             this.btnGenerateE.Name = "btnGenerateE";
             this.btnGenerateE.Size = new System.Drawing.Size(75, 23);
-            this.btnGenerateE.TabIndex = 2;
+            this.btnGenerateE.TabIndex = 1;
             this.btnGenerateE.Text = "Generate e";
             this.btnGenerateE.UseVisualStyleBackColor = true;
             this.btnGenerateE.Click += new System.EventHandler(this.btnGenerateE_Click);
@@ -865,8 +865,8 @@ namespace DoAnCuoiKy
             this.txtE.Location = new System.Drawing.Point(102, 99);
             this.txtE.Name = "txtE";
             this.txtE.Size = new System.Drawing.Size(241, 20);
-            this.txtE.TabIndex = 1;
-            this.txtE.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtE.TabIndex = 0;
+            this.txtE.TextChanged += new System.EventHandler(this.txtE_TextChanged);
             // 
             // txtPhi
             // 
@@ -876,7 +876,6 @@ namespace DoAnCuoiKy
             this.txtPhi.ReadOnly = true;
             this.txtPhi.Size = new System.Drawing.Size(241, 20);
             this.txtPhi.TabIndex = 1;
-            this.txtPhi.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtN
             // 
@@ -886,7 +885,6 @@ namespace DoAnCuoiKy
             this.txtN.ReadOnly = true;
             this.txtN.Size = new System.Drawing.Size(241, 20);
             this.txtN.TabIndex = 1;
-            this.txtN.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // groupBox2
             // 
@@ -914,7 +912,7 @@ namespace DoAnCuoiKy
             this.btnGenerateP.Location = new System.Drawing.Point(469, 117);
             this.btnGenerateP.Name = "btnGenerateP";
             this.btnGenerateP.Size = new System.Drawing.Size(75, 23);
-            this.btnGenerateP.TabIndex = 3;
+            this.btnGenerateP.TabIndex = 7;
             this.btnGenerateP.Text = "Generate p";
             this.btnGenerateP.UseVisualStyleBackColor = true;
             this.btnGenerateP.Click += new System.EventHandler(this.button2_Click);
@@ -924,7 +922,7 @@ namespace DoAnCuoiKy
             this.btnGenerateQ.Location = new System.Drawing.Point(368, 117);
             this.btnGenerateQ.Name = "btnGenerateQ";
             this.btnGenerateQ.Size = new System.Drawing.Size(75, 23);
-            this.btnGenerateQ.TabIndex = 3;
+            this.btnGenerateQ.TabIndex = 6;
             this.btnGenerateQ.Text = "Generate q";
             this.btnGenerateQ.UseVisualStyleBackColor = true;
             this.btnGenerateQ.Click += new System.EventHandler(this.btnGenerateQ_Click);
@@ -945,7 +943,7 @@ namespace DoAnCuoiKy
             this.label44.Location = new System.Drawing.Point(448, 42);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(16, 13);
-            this.label44.TabIndex = 2;
+            this.label44.TabIndex = 0;
             this.label44.Text = "to";
             this.label44.Click += new System.EventHandler(this.label44_Click);
             // 
@@ -955,7 +953,7 @@ namespace DoAnCuoiKy
             this.txtLowerlimitP.Location = new System.Drawing.Point(368, 80);
             this.txtLowerlimitP.Name = "txtLowerlimitP";
             this.txtLowerlimitP.Size = new System.Drawing.Size(74, 20);
-            this.txtLowerlimitP.TabIndex = 1;
+            this.txtLowerlimitP.TabIndex = 4;
             this.txtLowerlimitP.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.txtLowerlimitP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLowerlimitP_KeyPress);
             // 
@@ -965,7 +963,7 @@ namespace DoAnCuoiKy
             this.txtUperlimitQ.Location = new System.Drawing.Point(470, 39);
             this.txtUperlimitQ.Name = "txtUperlimitQ";
             this.txtUperlimitQ.Size = new System.Drawing.Size(74, 20);
-            this.txtUperlimitQ.TabIndex = 1;
+            this.txtUperlimitQ.TabIndex = 3;
             this.txtUperlimitQ.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.txtUperlimitQ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUperlimitQ_KeyPress);
             // 
@@ -975,7 +973,7 @@ namespace DoAnCuoiKy
             this.txtLowerlimitQ.Location = new System.Drawing.Point(368, 39);
             this.txtLowerlimitQ.Name = "txtLowerlimitQ";
             this.txtLowerlimitQ.Size = new System.Drawing.Size(74, 20);
-            this.txtLowerlimitQ.TabIndex = 1;
+            this.txtLowerlimitQ.TabIndex = 2;
             this.txtLowerlimitQ.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.txtLowerlimitQ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLowerlimitQ_KeyPress);
             // 
@@ -985,7 +983,7 @@ namespace DoAnCuoiKy
             this.txtUperlimitP.Location = new System.Drawing.Point(470, 80);
             this.txtUperlimitP.Name = "txtUperlimitP";
             this.txtUperlimitP.Size = new System.Drawing.Size(74, 20);
-            this.txtUperlimitP.TabIndex = 1;
+            this.txtUperlimitP.TabIndex = 5;
             this.txtUperlimitP.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.txtUperlimitP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUperlimitP_KeyPress);
             // 
@@ -1005,7 +1003,7 @@ namespace DoAnCuoiKy
             this.txtPrimeQ.Location = new System.Drawing.Point(102, 39);
             this.txtPrimeQ.Name = "txtPrimeQ";
             this.txtPrimeQ.Size = new System.Drawing.Size(241, 20);
-            this.txtPrimeQ.TabIndex = 1;
+            this.txtPrimeQ.TabIndex = 0;
             this.txtPrimeQ.TextChanged += new System.EventHandler(this.txtPrimeQ_TextChanged);
             this.txtPrimeQ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrimeQ_KeyPress);
             // 
@@ -1035,7 +1033,6 @@ namespace DoAnCuoiKy
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Công Cụ Mã Hóa";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPlayfail.ResumeLayout(false);
             this.tabPlayfail.PerformLayout();
