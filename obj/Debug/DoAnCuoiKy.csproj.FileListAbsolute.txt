@@ -10,3 +10,4 @@ D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.Fody.CopyLocal.cache
 D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CopyComplete
+D:\Bai\HKV\AnToanMang\project\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache

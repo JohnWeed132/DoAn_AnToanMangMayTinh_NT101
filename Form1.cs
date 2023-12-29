@@ -925,7 +925,7 @@ namespace DoAnCuoiKy
             {
                 // Nếu không rỗng, kích hoạt nút
                 btnEncryptRSA.Enabled = true;
-                btnDecryptRSA.Enabled = false;
+                btnDecryptRSA.Enabled = true;
             }
         }
 
